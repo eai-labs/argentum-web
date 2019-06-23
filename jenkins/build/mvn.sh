@@ -4,5 +4,4 @@ echo "****************"
 echo "* Building jar!*"
 echo "****************"
 
-sudo usermod -a -G docker $ USER
-docker run --rm -v /root/.m2:root/.m2 -v maven:3-alpine "$@"
+docker run --rm -v /jenkins/.m2:/root/.m2 -v $PWD:/app -w /app maven:3-alpine "$@"
