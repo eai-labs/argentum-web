@@ -4,7 +4,7 @@
 
 	<groupId>br.com.caelum.argentum</groupId>
 	<artifactId>argentum-web</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
