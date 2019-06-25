@@ -8,4 +8,5 @@ docker push bnreis/app
 
 docker logout
 
-docker rmi -f app/bnreis
+docker rmi -f bnreis/app
+docker rmi -f app:1
