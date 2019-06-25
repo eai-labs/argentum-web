@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker tag app bnreis/app:latest
+docker tag app:1 bnreis/app:latest
 
 docker login -u bnreis -p 150792Bn*
 
